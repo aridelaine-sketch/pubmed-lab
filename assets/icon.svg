@@ -1,0 +1,18 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="256" height="256" rx="52" fill="#14181C"/>
+
+  <!-- the source document -->
+  <rect x="64" y="52" width="128" height="152" rx="10"
+        fill="none" stroke="#F5F6F7" stroke-width="6"/>
+
+  <!-- ordinary sentences: muted, unselected -->
+  <line x1="84" y1="92" x2="172" y2="92" stroke="#7C8790" stroke-width="6" stroke-linecap="round"/>
+  <line x1="84" y1="114" x2="160" y2="114" stroke="#7C8790" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- the one sentence the decision model selected, by index -->
+  <!-- tick mark is the index pointer; teal line is the extracted evidence -->
+  <rect x="80" y="139" width="8" height="20" rx="2" fill="#22A38C"/>
+  <line x1="98" y1="149" x2="178" y2="149" stroke="#22A38C" stroke-width="8" stroke-linecap="round"/>
+
+  <line x1="84" y1="180" x2="146" y2="180" stroke="#7C8790" stroke-width="6" stroke-linecap="round"/>
+</svg>

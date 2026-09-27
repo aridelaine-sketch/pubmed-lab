@@ -1,0 +1,17 @@
+<svg viewBox="0 0 620 140" xmlns="http://www.w3.org/2000/svg">
+  <!-- mark -->
+  <g transform="translate(0,0)">
+    <rect x="0" y="0" width="140" height="140" rx="30" fill="#14181C"/>
+    <rect x="35" y="29" width="70" height="83" rx="6" fill="none" stroke="#F5F6F7" stroke-width="3.5"/>
+    <line x1="46" y1="51" x2="94" y2="51" stroke="#7C8790" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="46" y1="63" x2="88" y2="63" stroke="#7C8790" stroke-width="3.5" stroke-linecap="round"/>
+    <rect x="44" y="75.5" width="4.5" height="11" rx="1.2" fill="#22A38C"/>
+    <line x1="53.5" y1="81" x2="97" y2="81" stroke="#22A38C" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="46" y1="98" x2="80" y2="98" stroke="#7C8790" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="172" y="93"
+        font-family="Iowan Old Style, Palatino Linotype, Georgia, Cambria, Times New Roman, serif"
+        font-size="72" fill="#14181C">evidence.</text>
+</svg>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PubMed Lab</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="well">
+    <header class="mark">evidence.</header>
+
+    <section class="query">
+      <input
+        id="input"
+        type="text"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder="I want to learn pulmonary hypertension"
+      />
+      <div class="query-line"></div>
+    </section>
+
+    <p id="status" class="status" hidden></p>
+
+    <section id="result" class="result" hidden>
+      <div class="result-meta">
+        <span id="badge" class="badge"></span>
+        <button id="save" class="save">Save to vault</button>
+      </div>
+      <div id="note"></div>
+    </section>
+
+    <p id="empty" class="empty">
+      Ask a question, verify a claim, or say what you want to learn.
+      Evidence is pulled live from PubMed — nothing here comes from
+      the model's memory.
+    </p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
